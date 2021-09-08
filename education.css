@@ -1,0 +1,110 @@
+h1 {
+    font-size: 4vw;
+}
+h2 {
+    font-size: 2vw;
+}
+p {
+    font-size: 1.5vw;
+}
+nav li.education {
+    padding: 15.5px 0;
+    background-color: darkgreen;
+}
+nav {
+    background-color: forestgreen;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+}
+nav li {
+    display: inline-block;
+    width: 10%;
+    margin-left: 8%;
+    text-align: center;
+    cursor: pointer;
+}
+nav li:hover {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 15.3px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.0vw;
+}
+div {
+    background-color: lightgray;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+div > p {
+    font-family: "Kanit", sans-serif;
+    text-indent: 50px;
+    line-height: 2;
+    letter-spacing: 1.7px;
+}
+div h1 {
+    text-align: center;
+}
+#grade_level {
+    display: inline-block;
+    border-style: outset;
+    border-radius: 20px;
+    width: 20%;
+    text-align: center;
+    margin-left: 10%;
+    cursor: pointer;
+    height: 45px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.kdg {
+    background-color: gold;
+}
+.kdg:hover {
+    background-color: yellow;
+}
+.pmr {
+    background-color: darkmagenta;
+}
+.pmr:hover {
+    background-color: darkviolet;
+}
+.hsc {
+    background-color: deeppink;
+}
+.hsc:hover {
+    background-color: hotpink;
+}
+#kindergarten, #primary, #highschool {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+#kindergarten {
+    border-left: 25px solid gold;
+}
+#primary {
+    border-left: 25px solid darkmagenta;
+}
+#highschool {
+    border-left: 25px solid deeppink;
+}
+@media screen and (max-width: 768px) {
+    nav li {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 25px;
+        padding: 0;
+    }
+    nav {
+        height: auto;
+    }
+}

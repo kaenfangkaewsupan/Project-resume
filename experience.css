@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    font-size: 4vw;
+}
+h2 {
+    font-size: 2vw;
+}
+p {
+    font-size: 1.5vw;
+    font-family: "Kanit", sans-serif;
+    text-indent: 50px;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+}
+nav li.experience {
+    padding: 15.5px 0;
+    background-color: darkgreen;
+}
+nav {
+    background-color: forestgreen;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+}
+nav li {
+    display: inline-block;
+    width: 10%;
+    margin-left: 8%;
+    text-align: center;
+    cursor: pointer;
+}
+nav li:hover {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 15.3px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.0vw;
+}
+div {
+    background-color: lightgrey;
+}
+div > h1 {
+    text-align: center;
+}
+#link h2 {
+    width: 35%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-style: outset;
+    background-color: forestgreen;
+}
+#link h2:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+    color: white;
+}
+#link h2:active {
+    border-style: inset;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#container > h2 {
+    text-align: center;
+    font-size: 2.5vw;
+    border-left: 30px solid limegreen;
+    width: 25%;
+    margin: 150px auto 0;
+}
+@media screen and (max-width: 768px) {
+    nav li {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 25px;
+        padding: 0;
+    }
+    nav {
+        height: auto;
+    }
+}

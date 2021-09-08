@@ -1,0 +1,56 @@
+h1, nav {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    font-size: 4vw;
+}
+h2 {
+    font-size: 2.5vw;
+}
+h3 {
+    font-size: 2vw;
+}
+p {
+    font-size: 1.5vw;
+}
+nav li.skills {
+    padding: 15.5px 0;
+    background-color: darkgreen;
+}
+nav {
+    background-color: forestgreen;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+}
+nav li {
+    display: inline-block;
+    width: 10%;
+    margin-left: 8%;
+    text-align: center;
+    cursor: pointer;
+}
+nav li:hover {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 15.3px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.0vw;
+}
+div {
+    background-color: lightgrey;
+}
+div > h1 {
+    text-align: center
+}
+#topic {
+    font-family: "Kanit", sans-serif;
+}
+#topic h2{
+    text-align: center;
+    margin: 150px auto 50px;
+    width: 30%;
+    border-left: 30px solid aqua;
+}

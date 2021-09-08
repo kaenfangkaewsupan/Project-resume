@@ -1,0 +1,79 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+div.d1 {
+    background-color: darkgreen;
+    height: 200px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+div > h1 {
+    text-align: center;
+    width: 14%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-size: 5vw;
+    color: whitesmoke;
+}
+.interstate {
+    background-color: black;
+    height: 30px;
+}
+div.d2 {
+    background-color: lightgray;
+}
+div.d2 > h2 {
+    font-size: 3.5vw;
+    text-align: center;
+}
+h2.education {
+    margin-top: 0;
+    padding-top: 100px;
+}
+p {
+    font-size: 1.5vw;
+}
+.d2 > p {
+    text-indent: 50px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-family: "Kanit", sans-serif;
+}
+#Link {
+    border-style: outset;
+    border-radius: 50px;
+    background-color: darkgreen;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+}
+#Link:hover {
+    background-color: forestgreen;
+    color: black;
+}
+#Link:active {
+    border-style: inset;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    #Link {
+        width: 15%;
+    }
+}
+@media screen and (max-width: 400px) {
+    #Link {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 300px) {
+    #Link {
+        width: 35%;
+    }
+}

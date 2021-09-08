@@ -1,0 +1,78 @@
+nav li.profile {
+    padding: 15.5px 0;
+    background-color: darkgreen;
+}
+nav {
+    background-color: forestgreen;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+}
+nav li {
+    display: inline-block;
+    width: 10%;
+    margin-left: 8%;
+    text-align: center;
+    cursor: pointer;
+}
+nav li:hover {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 15.3px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.0vw;
+}
+div {
+    background-color: lightgray;
+}
+div > h1 {
+    text-align: center;
+    font-size: 4vw;
+    font-family: "Roboto", sans-serif;
+}
+div > p {
+    font-family: "Kanit", sans-serif;
+}
+#แนะนำตัว {
+    text-indent: 50px;
+    font-size: 1.5vw;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+div > h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+div > h3 {
+    font-size: 2vw;
+    text-indent: 30px;
+}
+#container {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+#phone {
+    text-indent: 30px;
+}
+#fb {
+    text-indent: 30px;
+}
+#d2 p, #d3 p, #d4 p {
+    font-size: 1.5vw;
+    padding: 7px;
+}
+@media screen and (max-width: 768px) {
+    nav li {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 25px;
+        padding: 0;
+    }
+    nav {
+        height: auto;
+    }
+}
